@@ -1,0 +1,7 @@
+.vs
+bin
+obj
+*.db
+config.json
+
+data/config.json.temp

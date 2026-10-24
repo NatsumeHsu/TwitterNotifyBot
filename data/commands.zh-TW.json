@@ -1,0 +1,166 @@
+{
+  "db": {
+    "name": "資料庫",
+    "description": "管理此伺服器的 Twitter 通知資料",
+    "insert": {
+      "name": "新增",
+      "description": "依頻道 ID 新增通知項目",
+      "screen-name": {
+        "name": "推特帳號",
+        "description": "Twitter 帳號名稱"
+      },
+      "channel-id": {
+        "name": "頻道編號",
+        "description": "Discord 頻道 ID"
+      },
+      "text": {
+        "name": "訊息文字",
+        "description": "通知訊息前置文字"
+      }
+    },
+    "delete": {
+      "name": "刪除",
+      "description": "刪除使用者與其所有通知項目",
+      "screen-name": {
+        "name": "推特帳號",
+        "description": "Twitter 帳號名稱"
+      }
+    },
+    "notify-list": {
+      "name": "通知清單",
+      "description": "列出已啟用的追蹤使用者",
+      "page": {
+        "name": "頁碼",
+        "description": "從 0 開始的頁面索引"
+      }
+    },
+    "disable": {
+      "name": "停用",
+      "description": "停用一位追蹤中的 Twitter 使用者",
+      "screen-name": {
+        "name": "推特帳號",
+        "description": "Twitter 帳號名稱"
+      }
+    },
+    "disable-list": {
+      "name": "停用清單",
+      "description": "列出已停用的使用者"
+    }
+  },
+  "notify": {
+    "name": "通知",
+    "description": "管理此伺服器的 Twitter 通知",
+    "create": {
+      "name": "新增通知",
+      "description": "為此伺服器建立 Twitter 通知",
+      "screen-name": {
+        "name": "推特帳號",
+        "description": "Twitter 帳號名稱"
+      },
+      "channel": {
+        "name": "目標頻道",
+        "description": "要發送通知的頻道"
+      },
+      "text": {
+        "name": "前置文字",
+        "description": "嵌入訊息前要發送的文字"
+      }
+    },
+    "update": {
+      "name": "更新通知",
+      "description": "更新通知頻道或文字",
+      "screen-name": {
+        "name": "推特帳號",
+        "description": "Twitter 帳號名稱"
+      },
+      "channel": {
+        "name": "新頻道",
+        "description": "新的通知頻道"
+      },
+      "text": {
+        "name": "新文字",
+        "description": "新的通知前置文字"
+      }
+    },
+    "remove": {
+      "name": "移除通知",
+      "description": "移除通知設定",
+      "screen-name": {
+        "name": "推特帳號",
+        "description": "Twitter 帳號名稱"
+      }
+    },
+    "list": {
+      "name": "通知列表",
+      "description": "列出伺服器通知項目",
+      "page": {
+        "name": "頁碼",
+        "description": "從 1 開始的頁面索引"
+      }
+    },
+    "subscribe": {
+      "name": "訂閱類型",
+      "description": "設定通知推文類型",
+      "screen-name": {
+        "name": "推特帳號",
+        "description": "Twitter 帳號名稱"
+      },
+      "post": {
+        "name": "推文",
+        "description": "是否包含一般推文",
+        "Yes": {
+          "name": "是"
+        },
+        "No": {
+          "name": "否"
+        }
+      },
+      "retweet": {
+        "name": "轉推",
+        "description": "是否包含轉推",
+        "Yes": {
+          "name": "是"
+        },
+        "No": {
+          "name": "否"
+        }
+      },
+      "quote": {
+        "name": "引用",
+        "description": "是否包含引用推文",
+        "Yes": {
+          "name": "是"
+        },
+        "No": {
+          "name": "否"
+        }
+      },
+      "reply": {
+        "name": "回覆",
+        "description": "是否包含回覆",
+        "Yes": {
+          "name": "是"
+        },
+        "No": {
+          "name": "否"
+        }
+      }
+    }
+  },
+  "report": {
+    "name": "回報",
+    "description": "傳送回報給擁有者私訊",
+    "message": {
+      "name": "內容",
+      "description": "回報訊息內容"
+    }
+  },
+  "help": {
+    "name": "說明",
+    "description": "顯示說明圖片"
+  },
+  "invite": {
+    "name": "邀請",
+    "description": "顯示機器人邀請連結"
+  }
+}
